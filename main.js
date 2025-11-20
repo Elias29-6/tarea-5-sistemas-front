@@ -1,4 +1,4 @@
-const BASE = "https://tarea-5-sistemas-back.netlify.app/";
+const BASE = "https://tarea-5-sistemas-back.netlify.app";
 
 async function api(method, url, body) {
   const res = await fetch((BASE ? BASE : '') + '/.netlify/functions' + url, {
